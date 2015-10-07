@@ -1,0 +1,203 @@
+/* ------------------------------------------------------------- */
+/* ------------------------ second.css ------------------------- */
+/* ------------------------------------------------------------- */
+
+body, html{	
+	background-attachment: fixed;
+
+	background-color: rgb(246, 243, 237);
+	
+	background-position: center;
+	
+	overflow: auto;
+}
+
+hr{
+	border: 0;
+	
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	
+    height: 0;
+	
+	margin: 20px auto;
+   
+	width: 50%;
+}
+
+@media (min-width: 1024px){	
+	#header-name{
+		font-size: 5em;	
+	}
+
+	#header-position{
+		font-size: 3.5em;	
+	}
+	
+	#navigation-picture img{
+		height: 350px;
+		
+		width: 350px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px){	
+	#header-name{
+		font-size: 4em;	
+	}
+
+	#header-position{
+		font-size: 2.5em;	
+	}
+	
+	#navigation-picture img{
+		height: 350px;
+		
+		width: 350px;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+	#header-name{
+		font-size: 2.5em;	
+	}
+
+	#header-position{
+		font-size: 2em;	
+	}
+	
+	#navigation-picture img{
+		height: 300px;
+		
+		width: 300px;
+	}
+}
+
+@media (max-width: 479px){
+	#header-name{
+		font-size: 1.75em;	
+	}
+
+	#header-position{
+		font-size: 1.25em;	
+	}	
+	
+	#navigation-picture img{
+		height: 200px;
+		
+		width: 200px;
+	}
+}
+
+#all-content-wrapper{
+	font-family: 'Work Sans', serif;
+	
+	text-align: center;
+}
+
+#header-name{
+	/*color: rgb(143, 143, 143);*/
+}
+
+#header-position{
+	/*color: rgb(255, 255, 238);*/
+}
+
+#header-wrapper{
+	display: inline-block;
+	
+	margin: auto;
+	
+	text-align: center;
+	
+	width: 90%;
+}
+
+#header-wrapper div{
+	margin: auto;
+	
+	text-align: center;
+	
+	width: 100%;
+}
+
+#header-name{
+	color: rgb(205, 205, 204);
+	
+	font-weight: 200;	
+}
+
+#header-position{
+	color: rgb(42, 42, 42);
+	
+	font-weight: 100;
+}
+
+#header-name ul, #header-position ul{
+	margin: 20px;
+	
+	padding: 0px;
+}
+
+#header-name ul li, #header-position ul li{
+	display: inline-block;
+	
+	list-style-type: none;
+	
+    position: relative;
+	
+	text-align: center;
+	
+	width: 100%;
+}
+
+#header-name ul li:before, #header-name ul li:after{
+	color: rgba(255, 255, 245, 0.2);
+}
+
+#header-name ul li:before, #header-name ul li:after{
+    content: attr(title);
+   
+	margin: auto;
+   
+    position: absolute;
+	
+	width: 100%;
+}
+
+#header-name ul li:before{ 
+	left: 1px;
+
+	top: 1px; 
+}
+
+#header-name ul li:after{ 
+	left: 2px;
+
+	top: 2px;
+}
+
+#navigation-picture{
+	background-repeat: no-repeat;
+	
+	background-size: contain;
+	
+	display: inline-block;
+	
+	margin: auto; 
+}
+
+#navigation-picture img{
+	border-color: rgb(44, 44, 44);
+	
+	border-radius: 50%;
+	
+	border-width: 1px;
+}
+
+#navigation-wrapper{
+	margin: 30px auto;
+	
+	text-align: center;
+}

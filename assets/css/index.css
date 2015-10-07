@@ -1,0 +1,714 @@
+/* ------------------------------------------------------------- */
+/* ------------------------- index.css ------------------------- */
+/* ------------------------------------------------------------- */
+
+body, html{	
+	background-attachment: fixed;
+
+	background-color: rgba(178, 178, 178, 1);
+	
+	background-image: url('../images/background-blurred.jpg');
+	
+	background-position: center;
+	
+	font-family: 'Work Sans', serif;
+	
+	font-weight: 200;
+	
+	overflow: auto !important;
+}
+
+hr{
+	border: 0;
+	
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	
+    height: 0;
+	
+	margin: 20px auto;
+   
+	width: 40%;
+}
+
+/* --------------------------------- media queries ----------------------------------*/
+
+/* -------------- Outer Wrapper ---------------- */
+
+@media (min-width: 1200px){	
+	#bottom-half span{
+		display: inline-block;
+		
+		font-size: 2em;
+		
+		margin: 10px 25px;
+		
+		width: auto;
+	}
+	
+	#span-email{
+		float: right;
+	}
+	
+	#span-job-title{
+		float: right;
+	}
+	
+	#top-half span{
+		display: inline-block;
+		
+		font-size: 2em;
+		
+		margin: 180px 25px;
+		
+		width: auto;
+	}
+}
+
+@media (min-width: 990px) and (max-width: 1199px){	
+	#bottom-half span{
+		display: inline-block;
+		
+		font-size: 1.5em;
+		
+		width: auto;
+	}
+	
+	#span-email{
+		float: right;
+		
+		margin: 10px 25px 0px 0px;	
+	}
+	
+	#span-job-title{
+		float: right;
+		
+		margin: 180px 25px 0px 0px;	
+	}
+	
+	#span-name{	
+		margin: 180px 0px 0px 25px;	
+	}
+	
+	#span-phone-number{
+		margin: 10px 0px 0px 25px;	
+	}
+
+	#top-half span{ 
+		display: inline-block;
+		
+		font-size: 1.5em;
+		
+		width: auto;
+	}
+}
+
+@media (min-width: 100px) and (max-width: 989px){	
+	#bottom-half{
+		text-align: center;
+	}
+	
+	#bottom-half span{
+		display: inline-block;
+		
+		font-size: 1.2em;
+		
+		margin-left: 20%; 
+		
+		margin-right: 20%; 
+		
+		text-align: center;
+		
+		width: 300px;
+	}
+	
+	#span-name{	
+		margin-bottom: 10px;
+	
+		margin-top: 30px;
+	}
+	
+	#span-phone-number{	
+		margin-bottom: 10px;
+	
+		margin-top: 130px;
+	}
+
+	#top-half{
+		text-align: center;
+	}
+	
+	#top-half span{
+		display: inline-block;
+		
+		font-size: 1.2em;
+		
+		margin-left: 20%; 
+		
+		margin-right: 20%; 
+		
+		text-align: center;
+		
+		width: 250px;
+	}
+}
+
+/* ------------------------------------------ */
+
+/* ---------------- Nav Bar ----------------- */
+
+@media (min-width: 1500px){	
+	#middle-nav-bar{
+		font-size: 2.5em;
+		
+		height: 50px;
+		
+		margin: 30px auto;
+	}
+	
+	#middle-nav-bar-space{
+		height: 30px;
+		
+		width: 25%;
+	}
+
+	.nav-link{		
+		height: 50px;
+		
+		width: 220px;
+	}
+}
+
+@media (min-width: 1300px) and (max-width: 1499px){	
+	#middle-nav-bar{
+		font-size: 2em;
+		
+		height: 40px;
+		
+		margin: 30px auto;
+	}
+	
+	#middle-nav-bar-space{
+		height: 30px;
+		
+		width: 25%;
+	}
+
+	.nav-link{
+		height: 40px;
+		
+		width: 180px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1299px){	
+	#middle-nav-bar{
+		font-size: 1.5em;
+		
+		height: 30px;
+		
+		margin: 30px auto;
+	}
+	
+	#middle-nav-bar-space{
+		height: 30px;
+		
+		width: 25%;
+	}
+
+	.nav-link{
+		height: 30px;
+		
+		width: 140px;
+	}
+}
+
+@media (min-width: 100px) and (max-width: 999px){	
+	#middle-nav-bar{
+		font-size: 1.5em;
+		
+		height: 30px;
+		
+		margin: 130px auto 30px auto;
+	}
+	
+	#middle-nav-bar-space{
+		height: 30px;
+		
+		width: 0%;
+	}
+
+	.nav-link{
+		height: 30px;
+		
+		width: 140px;
+	}
+}
+/* ------------------------------------------ */
+
+/* ------- #ids ------- */
+
+#bottom-half{
+	background-color: rgba(255, 255, 255, .4);
+	
+	border-bottom-left-radius: 2px;
+	
+	border-bottom-right-radius: 2px;
+	
+	display: inline-block;
+	
+	height: 50%;
+	
+	margin-bottom: 3%;
+	
+	width: 100%;
+}
+
+#bottom-half h1{
+	color: rgb(77, 77, 255);
+	
+	display: inline-block;
+	
+	font-size: 2em;
+	
+	font-weight: 200;
+	
+	margin: 10px 25px;
+	
+	position: relative;
+	
+    text-shadow: 1px 1px 1px rgb(25, 25, 25);
+	
+	width: auto;
+}
+
+#bottom-half span{
+	color: rgb(255, 255, 255);
+		
+	font-weight: 200;
+		
+	text-shadow: 1px 1px 4px rgb(25, 25, 25);
+}
+
+#expand-or-collapse{
+	height: 100px;
+	
+	margin: 40px 0px;
+	
+	vertical-align: middle;
+	
+	width: 100px;
+}
+
+#image-automated-testing-logo{
+	height: 200px;
+	
+	width: 350px;
+}
+
+#image-bootstrap-logo{
+	height: 200px;
+	
+	width: 400px;
+}
+
+#image-java-logo{
+	height: 200px;
+	
+	width: 200px;
+}
+
+#image-jQuery-logo{
+	height: 220px;
+	
+	width: 400px;
+}
+
+#image-mu-logo{
+	display: inline-block;
+	
+	margin: 20px;
+	
+	height: 200px;
+	
+	vertical-align: middle;
+	
+	width: 200px;
+}
+
+#image-web-design-logo{
+	height: 150px;
+	
+	width: 450px;
+}
+
+#loading{
+    bottom: 0;
+	
+	height: 60%;	
+	
+	left: 0;
+	
+	margin: auto;
+	
+	position: absolute;
+	
+    right: 0;
+	
+	top:0;
+	
+	visibility: hidden;
+	
+	z-index: -1;
+}
+
+#middle{
+	background-color: rgba(0, 0, 0, .7);
+	
+	bottom: 0;
+	
+	font-weight: 200;
+	
+	height: auto;
+	
+	left: 0;
+	
+	margin: 0px;
+	
+	opacity: 0;
+	
+    right: 0;
+	
+	text-align: center;
+	
+	top:0;
+	
+	width: 100%;
+}
+
+#middle-nav-bar{
+	color: rgb(255, 255, 255);
+	
+	display: inline-block;
+	
+	text-align: center;
+	
+	width: 100%;
+}
+
+#middle-wrapper-1{
+	display: inline-block;
+	
+	background-color: rgba(255, 255, 255, .0);
+	
+	height: 1000px;
+	
+	margin: 20px 0px;
+	
+	width: 100%;
+}
+
+#middle-wrapper-1-body{
+	width: 100%;
+}
+
+#middle-wrapper-1-head{
+	display: inline-block;
+	
+	vertical-align: middle;
+	
+	width: 100%;
+}
+
+#middle-wrapper-2{
+	background-color: rgba(255, 255, 255, .0);
+	
+	display: inline-block;
+	
+	height: 1000px;
+	
+	margin: 20px;
+	
+	position: relative;
+	
+	width: 100%;
+}
+
+#middle-wrapper-2-body{
+	width: 100%;
+}
+
+#middle-wrapper-3{
+	background-color: rgba(255, 255, 255, .0);
+	
+	display: inline-block;
+	
+	height: 1000px;
+	
+	margin: 20px;
+	
+	position: relative;
+	
+	width: 100%;
+}
+
+#middle-wrapper-3-body{
+	width: 100%;
+}
+
+#middle-wrapper-4{
+	background-color: rgba(255, 255, 255, .0);
+	
+	display: inline-block;
+	
+	height: 1000px;
+	
+	margin: 20px;
+	
+	position: relative;
+	
+	width: 100%;
+}
+
+#middle-wrapper-4-body{
+	width: 100%;
+}
+
+#nav-link-1{
+	color: rgb(230, 46, 0);
+}
+
+#outer-wrapper{
+	border-radius: 1px;
+	
+    bottom: 0;
+	
+	display: inline-block;
+	
+	height: 70%;
+	
+	left: 0;
+	
+	margin: 10% auto auto auto;
+	
+	max-height: 450px;
+	
+	min-width: 900px;
+	
+	min-height: 450px;
+	
+	min-width: 450px;
+	
+	opacity: 0;
+	
+	position: absolute;
+	
+    right: 0;
+	
+	top:0;
+	
+	width: 85%;
+}
+
+#profile-pic{
+	background-color: rgba(251, 251, 251, .8);
+	
+	background-image: url('../images/coryloeffelman.png');
+	
+	background-position: center;
+	
+	background-repeat: no-repeat;
+	
+	background-size: contain;
+	
+	border-color: rgb(255, 255, 255);
+	
+	border-radius: 50%;
+	
+	border-style: solid;
+	
+	border-width: 1px;
+	
+	bottom: 0;
+    
+	height: 40%;	
+	
+	left: 0;
+	
+	margin: auto;
+	
+	padding: 20px;
+	
+	position: absolute;
+	
+    right: 0;
+	
+	text-align: center;
+	
+	top: 0;
+	
+	-webkit-transition: background-color 1000ms cubic-bezier(.27,1,.38,.89);
+    transition: background-color 1000ms cubic-bezier(.27,1,.38,.89);
+	
+	z-index: 100;
+}
+
+#profile-pic:hover{
+	background-color: rgba(0, 0, 0, .5);
+	
+	background-image: url("");
+}
+
+#profile-pic span{
+	bottom: 0;
+    
+	color: rgb(255, 255, 255);
+	
+	font-size: 1.5em;
+	
+	font-weight: 200;
+	
+	height: 30px;
+	
+	left: 0;
+	
+	margin: auto 0px;
+	
+	position: absolute;
+	
+    right: 0;
+	
+	text-align: center;
+	
+	top:0;
+	
+}
+
+.span-classes-wrapper{
+	display: inline-block;
+	
+	margin: 20px;
+	
+	text-align: left;
+}
+
+#span-university-title{
+	color: rgb(255, 255, 255);
+		
+	display: inline-block;
+		
+	font-size: 4em;
+		
+	font-weight: 200;
+	
+	margin: 40px auto;
+	
+	text-shadow: 1px 1px 4px rgb(25, 25, 25);
+	
+	vertical-align: middle;
+}
+
+#top-half{
+	background-color: rgba(255, 255, 255, .1);
+	
+	border-top-left-radius: 2px;
+	
+	border-top-right-radius: 2px;
+
+	display: inline-block;
+	
+	height: 50%;
+	
+	width: 100%;
+}
+
+#top-half span{
+	color: rgb(255, 255, 255);
+		
+	font-weight: 200;
+		
+	text-shadow: 1px 1px 4px rgb(25, 25, 25);
+}
+
+/* ------- #classes ------- */
+
+.box-shadow{
+	box-shadow: 0px 0px 5px rgb(174, 174, 174);
+}
+
+.flip-vertical{
+	-moz-transform: scaleY(-1);
+	-o-transform: scaleY(-1);
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+	filter: FlipV;
+	-ms-filter: "FlipV";
+}
+
+.nav-link{
+	display: inline-block;
+	
+	-webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+}
+
+.nav-link a:hover{
+	color: rgb(230, 46, 0);
+}
+
+.span-emphasis{
+	color: rgb(230, 46, 0);
+}
+
+.span-info{
+	color: rgb(255, 255, 255);
+		
+	display: inline-block;
+		
+	font-size: 1.5em;
+		
+	font-weight: 200;
+	
+	margin-bottom: 20px;
+	
+	text-shadow: 1px 1px 4px rgb(25, 25, 25);
+	
+	width: 100%;
+}
+
+.span-title{
+	color: rgb(255, 255, 255);
+	
+	display: inline-block;
+		
+	font-size: 1.5em;
+		
+	font-weight: 400;
+		
+	margin-bottom: 20px;
+	
+	text-shadow: 1px 1px 4px rgb(25, 25, 25);
+	
+	width: 100%;
+}
+
+.span-position{
+	font-weight: 100 !important;
+}
+
+.image-skill-logo{
+	margin: 20px;
+}
+
+.image-work-logo{
+	display: inline-block;
+		
+	height: 80px;
+	
+	margin: 10px;
+	
+	vertical-align: middle;
+	
+	width: 80px;
+}
